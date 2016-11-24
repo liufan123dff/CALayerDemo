@@ -15,6 +15,13 @@
 		FC07A5B51D1D027C00653C6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC07A5B31D1D027C00653C6E /* LaunchScreen.storyboard */; };
 		FC07A5C01D1D027C00653C6E /* LayerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07A5BF1D1D027C00653C6E /* LayerTestTests.m */; };
 		FC07A5CB1D1D027D00653C6E /* LayerTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07A5CA1D1D027D00653C6E /* LayerTestUITests.m */; };
+		FC07A5D91D1D09A700653C6E /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = FC07A5D81D1D09A700653C6E /* photo.png */; };
+		FC07A5DC1D1D272C00653C6E /* SCALayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07A5DB1D1D272C00653C6E /* SCALayer.m */; };
+		FC07A5E11D2015DC00653C6E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC07A5DF1D2015DC00653C6E /* Model.xcdatamodeld */; };
+		FC07A5EA1D20176200653C6E /* Status+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07A5E31D20176200653C6E /* Status+CoreDataProperties.m */; };
+		FC07A5EB1D20176200653C6E /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07A5E51D20176200653C6E /* Status.m */; };
+		FC07A5EC1D20176200653C6E /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07A5E71D20176200653C6E /* User+CoreDataProperties.m */; };
+		FC07A5ED1D20176200653C6E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07A5E91D20176200653C6E /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,18 @@
 		FC07A5C61D1D027D00653C6E /* LayerTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayerTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC07A5CA1D1D027D00653C6E /* LayerTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayerTestUITests.m; sourceTree = "<group>"; };
 		FC07A5CC1D1D027D00653C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC07A5D81D1D09A700653C6E /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		FC07A5DA1D1D272C00653C6E /* SCALayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCALayer.h; sourceTree = "<group>"; };
+		FC07A5DB1D1D272C00653C6E /* SCALayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCALayer.m; sourceTree = "<group>"; };
+		FC07A5E01D2015DC00653C6E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		FC07A5E21D20176200653C6E /* Status+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Status+CoreDataProperties.h"; sourceTree = "<group>"; };
+		FC07A5E31D20176200653C6E /* Status+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Status+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FC07A5E41D20176200653C6E /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
+		FC07A5E51D20176200653C6E /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
+		FC07A5E61D20176200653C6E /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		FC07A5E71D20176200653C6E /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FC07A5E81D20176200653C6E /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		FC07A5E91D20176200653C6E /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +120,22 @@
 		FC07A5A41D1D027C00653C6E /* LayerTest */ = {
 			isa = PBXGroup;
 			children = (
+				FC07A5D81D1D09A700653C6E /* photo.png */,
 				FC07A5A81D1D027C00653C6E /* AppDelegate.h */,
 				FC07A5A91D1D027C00653C6E /* AppDelegate.m */,
 				FC07A5AB1D1D027C00653C6E /* ViewController.h */,
 				FC07A5AC1D1D027C00653C6E /* ViewController.m */,
+				FC07A5DF1D2015DC00653C6E /* Model.xcdatamodeld */,
+				FC07A5E21D20176200653C6E /* Status+CoreDataProperties.h */,
+				FC07A5E31D20176200653C6E /* Status+CoreDataProperties.m */,
+				FC07A5E41D20176200653C6E /* Status.h */,
+				FC07A5E51D20176200653C6E /* Status.m */,
+				FC07A5E61D20176200653C6E /* User+CoreDataProperties.h */,
+				FC07A5E71D20176200653C6E /* User+CoreDataProperties.m */,
+				FC07A5E81D20176200653C6E /* User.h */,
+				FC07A5E91D20176200653C6E /* User.m */,
+				FC07A5DA1D1D272C00653C6E /* SCALayer.h */,
+				FC07A5DB1D1D272C00653C6E /* SCALayer.m */,
 				FC07A5AE1D1D027C00653C6E /* Main.storyboard */,
 				FC07A5B11D1D027C00653C6E /* Assets.xcassets */,
 				FC07A5B31D1D027C00653C6E /* LaunchScreen.storyboard */,
@@ -245,6 +276,7 @@
 			files = (
 				FC07A5B51D1D027C00653C6E /* LaunchScreen.storyboard in Resources */,
 				FC07A5B21D1D027C00653C6E /* Assets.xcassets in Resources */,
+				FC07A5D91D1D09A700653C6E /* photo.png in Resources */,
 				FC07A5B01D1D027C00653C6E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,8 +303,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC07A5AD1D1D027C00653C6E /* ViewController.m in Sources */,
+				FC07A5DC1D1D272C00653C6E /* SCALayer.m in Sources */,
+				FC07A5ED1D20176200653C6E /* User.m in Sources */,
+				FC07A5E11D2015DC00653C6E /* Model.xcdatamodeld in Sources */,
 				FC07A5AA1D1D027C00653C6E /* AppDelegate.m in Sources */,
 				FC07A5A71D1D027C00653C6E /* main.m in Sources */,
+				FC07A5EA1D20176200653C6E /* Status+CoreDataProperties.m in Sources */,
+				FC07A5EC1D20176200653C6E /* User+CoreDataProperties.m in Sources */,
+				FC07A5EB1D20176200653C6E /* Status.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +536,7 @@
 				FC07A5D11D1D027D00653C6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC07A5D21D1D027D00653C6E /* Build configuration list for PBXNativeTarget "LayerTestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +545,7 @@
 				FC07A5D41D1D027D00653C6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC07A5D51D1D027D00653C6E /* Build configuration list for PBXNativeTarget "LayerTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,8 +554,22 @@
 				FC07A5D71D1D027D00653C6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC07A5DF1D2015DC00653C6E /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC07A5E01D2015DC00653C6E /* Model.xcdatamodel */,
+			);
+			currentVersion = FC07A5E01D2015DC00653C6E /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FC07A59A1D1D027C00653C6E /* Project object */;
 }
